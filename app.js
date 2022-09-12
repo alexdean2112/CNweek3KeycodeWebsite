@@ -9,10 +9,7 @@ document.addEventListener("keypress", (event) => {
     infobar.style.display = "flex"
     infobar2.style.display = "flex"
     h1[0].textContent = "charCode" + (event.charCode)
-
-
     h3[0].textContent = "charCode" + (event.charCode)
-
     p[0].textContent = (event.key)
     p[1].textContent = (event.code)
     p[2].textContent = (event.which)
