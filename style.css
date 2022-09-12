@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#d1d1ca;
+}
+
+h1 {
+    margin-top: 45vh;
+    display: flex;
+    justify-content: center;
+}
+
+#infobar, #infobar2 {
+    display: none;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.eventbox p {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: aliceblue;
+    background-color: #ffa8B6;
+    padding: 10px 10px;
+    border: 1px dashed white ;
+}
+
+h2 {
+    background-color: #a28089;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    border: 1px dashed white ;
+    padding: 10px 10px;
+}
